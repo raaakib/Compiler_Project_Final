@@ -1,0 +1,78 @@
+integer_ Func_Max PB integer_ variable_a, integer_ variable_b PE
+Block_Begin
+
+Block_End
+
+
+integer_ Func_Main PB PE
+Block_Begin
+	Func_PrintString PB "Compiler Design Project" PE;
+	integer_ variable_a equal_operator_ 6 add_operator_ 5;
+	integer_ variable_aB equal_operator_ variable_a;
+	integer_ variable_b equal_operator_ 5,variable_c equal_operator_ variable_b;
+	Func_PrintVariable PB variable_a PE;
+	Func_PrintVariable PB variable_aB PE;
+	Func_PrintNewLine PB PE;
+	Func_PrintNewLine PB PE;
+
+	integer_ variable_p equal_operator_ 5, variable_q equal_operator_ 7;
+
+
+
+
+
+	If PB 5 less_than_ 4 PE
+	Block_Begin
+
+	Block_End
+	ElseIf PB 5 less_than_ 4 PE
+	Block_Begin
+
+	Block_End
+	ElseIf PB 5 less_than_ 4 PE
+	Block_Begin
+
+	Block_End
+	Else
+	Block_Begin
+		If PB 5 greater_than_ 4 PE
+		Block_Begin
+
+		Block_End
+	Block_End
+
+
+	variable_a equal_operator_ 6 add_operator_ variable_a;
+	Func_PrintVariable PB variable_a PE;
+	integer_ variable_st equal_operator_ 1 add_operator_ 0;
+	integer_ variable_ed equal_operator_ 10;
+
+
+	
+	For PB variable_st To variable_ed IncrementBy 1 PE
+	Block_Begin
+		For PB variable_st To variable_ed IncrementBy 1 PE
+		Block_Begin
+			variable_b equal_operator_ 7;
+		Block_End
+	Block_End
+
+	Switch PB 7 PE
+	Block_Begin
+		1:
+			Block_Begin
+
+			Block_End
+		7:
+			Block_Begin
+
+			Block_End
+
+
+		*:  Block_Begin
+
+			Block_End
+	Block_End
+
+
+Block_End

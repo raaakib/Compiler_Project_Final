@@ -1,0 +1,16 @@
+Function Declared
+Printed string:Compiler Design Project
+Printed variable: 11
+Printed variable: 11
+Printing a new line: 
+Printing a new line: 
+
+If executed
+
+Else block executed
+Printed variable: 17
+Loop executes for 10 times.
+Loop executes for 10 times.
+Executed switch variable: 7
+
+Compilation Successful
